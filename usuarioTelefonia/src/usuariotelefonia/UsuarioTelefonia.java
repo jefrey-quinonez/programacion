@@ -60,7 +60,7 @@ public class UsuarioTelefonia {
                     System.out.println("Ingrese el monto a transferir... ");
                     monto = entrada.nextDouble();
                     
-                    if((saldoDisponible-monto)> 100){
+                    if((saldoDisponible-monto)> 0){
                         
                         saldoDisponible -= monto;
                         resultado = saldoDisponible - monto;
